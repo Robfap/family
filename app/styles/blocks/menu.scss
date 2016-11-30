@@ -1,0 +1,21 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 140px;
+  padding: 10px;
+  background: #eee;
+  width: 100%;
+}
+
+.input-item {
+  margin: 5px 0;
+  display: inline-block;
+  width: 45%;
+
+  @include element(name) {
+    width: 100px;
+    display: inline-block;
+  }
+
+}
